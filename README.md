@@ -1,41 +1,43 @@
-# 🩺 Injury Insights Dashboard – Tableau Project
+# 🎬 Netflix Content Insights Dashboard
 
 ## 📌 Overview
-This Tableau project focuses on analyzing on-the-job injury data to identify patterns, uncover high-risk areas, and recommend targeted strategies for safety improvement. The goal is to help safety teams prioritize interventions, improve compliance, and reduce injury rates across departments.
+This Tableau project presents a comprehensive analysis of Netflix's content library using visual analytics. The aim is to uncover patterns in content distribution, regional trends, and viewer-oriented insights to better understand Netflix's streaming strategy.
 
 ## 🧰 Tools & Technologies
-- **Tableau** – Data visualization and interactive dashboard development  
-- **Microsoft Excel** – Data cleaning and preparation  
-- **Data Source** – Simulated/institution-provided injury dataset
+- **Tableau** – For interactive dashboards and data visualization  
+- **Microsoft Excel / CSV** – For data cleaning and preparation  
+- **Dataset Source** – [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
-## 🔍 Key Features
-- **KPI Cards** summarizing injury count, recordables, and severity
-- **Injury Trend Line** tracking incidents over time  
-- **Department-wise Analysis** of injury volume  
-- **Body Part & Nature Analysis** to determine most affected areas  
-- **Cross-tab Visuals** like Injury Cause vs. Injury Nature  
-- **OSHA Recordables** comparison chart  
-- **Interactive Filters** for date range, injury type, and department
+## 📊 Key Visuals
+- **KPI Cards** showing Total Titles, Movies, and TV Shows
+- **Titles Added Over Time** – Line graph showing Netflix growth trends
+- **Top Countries by Content** – Bar chart showing country-wise content distribution
+- **Movie Duration Distribution** – Histogram to analyze runtime clusters
+- **Top 10 Directors** – Bar chart ranking the most featured directors
+- **Rating Breakdown** – Content classification by maturity ratings
 
-## 📈 Screenshots
-### Dashboard Preview  
-![Dashboard Screenshot](images/dashboard-preview.png)
+## 📈 Screenshot
+![Dashboard Preview](Netflix%20insight.jpeg)
 
 ## 🗂 File Contents
 | File | Description |
 |------|-------------|
-| `Injury_Dashboard.twbx` | Tableau Packaged Workbook |
-| `Injury_Data.xlsx` | Cleaned dataset used for visualizations |
-| `images/` | Folder with dashboard screenshots |
-| `README.md` | This documentation file |
+| `Netflix Content Insights.twbx` | Tableau Packaged Workbook |
+| `Netflix_Cleaned.csv` | Cleaned dataset used in Tableau |
+| `Netflix insight.jpeg` | Dashboard screenshot |
+| `README.md` | Project documentation |
 
-## ✅ Insights & Outcomes
-- Identified **top 3 departments** with highest injury rates  
-- Found that **sprains and strains** account for over 40% of all injuries  
-- Observed a **30% increase** in injuries during peak operational months  
-- Recommended increased training and PPE in high-risk departments  
+## ✅ Key Insights
+- **United States** leads in content volume, followed by India and the UK.
+- **TV-MA** is the most common rating, indicating a focus on mature audiences.
+- A surge in titles occurred between 2015 and 2018, showing aggressive content expansion.
+- **Rajiv Chilaka** and **Jan Suter** are among the most featured directors.
 
-## 📌 Next Steps
-- Integrate real-time reporting using Tableau Public or Server  
-- Extend analysis to include near-miss data  
-- Collaborate with safety compliance teams for deeper insights
+## 🚀 Future Enhancements
+- Integrate genre-based filtering and sentiment analysis from user reviews
+- Embed interactive Tableau Public link for real-time exploration
+- Create predictive models to suggest future popular genres or content types
+
+---
+
+📌 **Source:** [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
